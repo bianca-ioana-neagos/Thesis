@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The urls used in the TwitterInput.cs GetURL() method need to use https:// rather than http:// as per the twitter streaming api documentation (https://dev.twitter.com/docs/streaming-api).  With the http:// urls you will get a WebException (\"Unable to connect to the remote server\") at the \"var response = request.GetResponse();\" line of code.  The WebException has an inner SocketException with the message \"No connection could be made because the target machine actively refused it x.x.x.x:p\".  Changing the Url strings in the GetURL() method to https:// fixes the problem (at least for me).",
+    "LastUpdatedDate": "2013-02-14T13:26:52.817-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "streaminsight",
+    "ReportedDate": "2011-12-09T03:04:34.577-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Twitter Stream API urls need to use https",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9703
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Sorry, I should have clarified that this in reference to the \"JAhlen StreamInsight example adapters v1.3\" sample project.   ",
+      "PostedDate": "2011-12-09T03:05:45.547-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T13:26:52.817-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

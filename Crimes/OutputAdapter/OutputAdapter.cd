@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OutputAdapter.Tracer">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAACAAAAAAQAAAAAAAAAAAAAAAgAAAAAAAAAIAA=</HashCode>
+      <FileName>Tracer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OutputAdapter.TracerPointOutputAdapter">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAEAAAAAAAAAAAAAgEAAA=</HashCode>
+      <FileName>TracerAdapterPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OutputAdapter.TracerConfig">
+    <Position X="4.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAIg=</HashCode>
+      <FileName>TracerConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OutputAdapter.TracerFactory" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>TracerFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OutputAdapter.TracerRouter">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="OutputAdapter.TracerRouter.FileTracer">
+        <TypeIdentifier>
+          <NewMemberFileName>TracerRouter.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>TracerRouter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="OutputAdapter.TracerKind">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAIAAAACAAAABAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>TracerConfig.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

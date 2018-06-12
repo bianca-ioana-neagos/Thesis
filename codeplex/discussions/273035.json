@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "673546",
+    "ThreadId": "273035",
+    "Html": "\r\n<p>Hello,</p>\r\n<p>&nbsp;</p>\r\n<p>Just trying to build and run UdsoPatternDetector on Windows 7 x64.&nbsp;</p>\r\n<p>The error is &quot;Error<span> </span>1<span> </span>The type or namespace name 'CepPointStreamOperator' could not be found (are you missing a using directive or an assembly reference?)<span>\r\n</span>D:\\tools\\projects\\StreamInsight\\StreamInsightProductTeamSamples\\Applications\\UdsoPatternDetector\\UdsoAugmentedFiniteAutomaton\\AfaOperator.cs<span>\r\n</span>38<span> </span>68<span> </span>UdsoAugmentedFiniteAutomaton&quot;.</p>\r\n<p>CepPointStreamOperator should be in&nbsp;Microsoft.ComplexEventProcessing.Extensibility, in assembly Microsoft.ComplexEventProcessing.dll, which is added as a reference to the project.</p>\r\n<p>Any ideas?</p>\r\n<p>Thanks,</p>\r\n<p>Marcel</p>\r\n",
+    "PostedDate": "2011-09-19T02:14:12.897-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "673808",
+    "ThreadId": "273035",
+    "Html": "<p>Marcel,</p>\r\n<p>This sample requires StreamInsight 1.2, where we added the UDSO extensibility interface.</p>\r\n<p>Roman</p>",
+    "PostedDate": "2011-09-19T11:49:37.113-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "673810",
+    "ThreadId": "273035",
+    "Html": "<p>Hi Roman,</p>\r\n<p>Well, that makes sense. Don't know how I missed that download.</p>\r\n<p>Thank you,</p>\r\n<p>Marcel</p>",
+    "PostedDate": "2011-09-19T11:53:31.53-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

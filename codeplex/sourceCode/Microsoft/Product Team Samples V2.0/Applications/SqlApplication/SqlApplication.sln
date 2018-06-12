@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlApplication", "SqlApplication\SqlApplication.csproj", "{925FAA7E-F1A5-4705-9F2A-563CF7B79CAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlAdapter", "..\..\Adapters\SqlAdapter\SqlAdapter.csproj", "{C2B8AF53-D5B9-4D6D-A0A7-495038F8F3F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTextFileWriter", "..\..\Adapters\SimpleTextFileWriter\SimpleTextFileWriter.csproj", "{6B1B39B3-CB3F-4D97-8BDB-AC16EF7160F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{134B60B6-CA74-48F2-A762-6C010BAFB8DC}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/TFS07
+		SccProjectUniqueName0 = ..\\..\\Adapters\\SimpleTextFileWriter\\SimpleTextFileWriter.csproj
+		SccProjectName0 = ../../Adapters/SimpleTextFileWriter
+		SccLocalPath0 = ..\\..\\Adapters\\SimpleTextFileWriter
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = ..\\..\\Adapters\\SqlAdapter\\SqlAdapter.csproj
+		SccProjectName2 = ../../Adapters/SqlAdapter
+		SccLocalPath2 = ..\\..\\Adapters\\SqlAdapter
+		SccProjectUniqueName3 = SqlApplication\\SqlApplication.csproj
+		SccProjectName3 = SqlApplication
+		SccLocalPath3 = SqlApplication
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{925FAA7E-F1A5-4705-9F2A-563CF7B79CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{925FAA7E-F1A5-4705-9F2A-563CF7B79CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{925FAA7E-F1A5-4705-9F2A-563CF7B79CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{925FAA7E-F1A5-4705-9F2A-563CF7B79CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2B8AF53-D5B9-4D6D-A0A7-495038F8F3F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B8AF53-D5B9-4D6D-A0A7-495038F8F3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B8AF53-D5B9-4D6D-A0A7-495038F8F3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B8AF53-D5B9-4D6D-A0A7-495038F8F3F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B1B39B3-CB3F-4D97-8BDB-AC16EF7160F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B1B39B3-CB3F-4D97-8BDB-AC16EF7160F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B1B39B3-CB3F-4D97-8BDB-AC16EF7160F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B1B39B3-CB3F-4D97-8BDB-AC16EF7160F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+D:\files\IntroHost\bin\Debug\IntroHost.exe.config
+D:\files\IntroHost\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\files\IntroHost\bin\Debug\IntroHost.exe
+D:\files\IntroHost\bin\Debug\IntroHost.pdb
+D:\files\IntroHost\bin\Debug\log4net.dll
+D:\files\IntroHost\obj\x86\Debug\IntroHost.exe
+D:\files\IntroHost\obj\x86\Debug\IntroHost.pdb
+D:\workspace\licenta\IntroHost\bin\Debug\IntroHost.exe.config
+D:\workspace\licenta\IntroHost\obj\x86\Debug\IntroHost.exe
+D:\workspace\licenta\IntroHost\obj\x86\Debug\IntroHost.pdb
+D:\workspace\licenta\IntroHost\obj\x86\Debug\IntroHost.csprojResolveAssemblyReference.cache

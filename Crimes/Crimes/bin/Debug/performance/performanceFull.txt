@@ -1,0 +1,4 @@
+ OperatorTotalCpuUsage - 0
+ QueryTotalConsumedEventLatency - 0
+ QueryTotalProducedEventLatency - 0
+ QueryTotalOutgoingEventLatency - 0

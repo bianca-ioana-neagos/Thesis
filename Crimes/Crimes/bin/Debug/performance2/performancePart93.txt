@@ -1,0 +1,22 @@
+ QueryState - Running
+ QueryStartTime - 12.06.2018 14:25:05
+ QueryCreationTime - 12.06.2018 14:25:05
+ QueryId - 4503599627370839
+ QueryIsResilient - False
+ StreamEventCount - 39
+ StreamMemoryIncludingEvents - 5689
+ OperatorIndexEventCount - 0
+ OperatorEventMemory - 0
+ OperatorIndexMemory - 44
+ OperatorTotalScheduledCount - 0
+ OperatorTotalCpuUsage - 0
+ QueryTotalIncomingEventCount - 30
+ QueryTotalConsumedEventCount - 23
+ QueryTotalProducedEventCount - 0
+ QueryTotalOutgoingEventCount - 0
+ QueryLastIncomingEventTimestamp - 12.06.2018 14:25:05
+ QueryLastConsumedEventTimestamp - 12.06.2018 14:25:05
+ QueryTotalConsumedEventLatency - 0,541255428345835
+ QueryTotalProducedEventLatency - 0
+ QueryTotalOutgoingEventLatency - 0
+ QueryLastProducedCtiTimestamp - 01.01.0001 00:00:00

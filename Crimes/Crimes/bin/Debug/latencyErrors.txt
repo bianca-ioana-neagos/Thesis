@@ -1,0 +1,3 @@
+ QueryTotalConsumedEventLatency  - 202350967232531
+ QueryTotalProducedEventLatency  - 689833793920253
+ QueryTotalOutgoingEventLatency  - 329133438610344

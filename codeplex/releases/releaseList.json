@@ -1,0 +1,104 @@
+[
+  {
+    "Id": "0",
+    "Name": "JAhlen StreamInsight example adapters v1.4",
+    "DevelopmentStatus": "Stable",
+    "Description": "Demo adapters for Twitter and Facebook. Query samples.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2012-11-11T13:28:56.98-08:00",
+    "Files": [
+      {
+        "Id": "63f1dc48-c8e1-40a0-94cd-b6955e5eff0e",
+        "FileName": "JAhlen.zip",
+        "Url": "./0/63f1dc48-c8e1-40a0-94cd-b6955e5eff0e",
+        "Type": "Source Code",
+        "UploadDate": "2012-03-19T01:38:07.82-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "1",
+    "Name": "JAhlen StreamInsight example adapters v1.3",
+    "DevelopmentStatus": "Stable",
+    "Description": "New release including a Facebook input adapter.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2012-03-19T01:39:27.177-07:00",
+    "Files": [
+      {
+        "Id": "951e6635-92b5-447b-9b2f-ab088b90ebe8",
+        "FileName": "JAhlen.zip",
+        "Url": "./1/951e6635-92b5-447b-9b2f-ab088b90ebe8",
+        "Type": "Application",
+        "UploadDate": "2011-03-01T11:21:58.467-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "Name": "JAhlen StreamInsight example adapters v2.1",
+    "DevelopmentStatus": "Beta",
+    "Description": "Updated for StreamInsight 2.1 and Visual Studio 2012.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2012-11-11T13:28:24.527-08:00",
+    "Files": [
+      {
+        "Id": "d813efd7-d5c8-41c4-b63c-28675b1ade87",
+        "FileName": "JAhlen.zip",
+        "Url": "./2/d813efd7-d5c8-41c4-b63c-28675b1ade87",
+        "Type": "Source Code",
+        "UploadDate": "2012-11-11T13:28:24.277-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "3",
+    "Name": "StreamInsight Product Team Samples V2.1",
+    "DevelopmentStatus": "Stable",
+    "Description": "These samples correspond to the new StreamInsight APIs introduced with V2.1.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2012-08-17T15:15:09.907-07:00",
+    "Files": [
+      {
+        "Id": "4d492e5a-d1d9-4d3d-941d-2c34b6a20ae9",
+        "FileName": "StreamInsightProductTeamSamples_V21.zip",
+        "Url": "./3/4d492e5a-d1d9-4d3d-941d-2c34b6a20ae9",
+        "Type": "Source Code",
+        "UploadDate": "2012-08-17T15:15:09.577-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "4",
+    "Name": "StreamInsight Events to Windows Form",
+    "DevelopmentStatus": "Beta",
+    "Description": "View the Documentation for more information. [url:http://streaminsight.codeplex.com/wikipage?title=rseroter]",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2011-07-18T09:58:50.56-07:00",
+    "Files": [
+      {
+        "Id": "1e647fb1-6984-49fc-a6f3-2cff37aa585e",
+        "FileName": "Package_StreamInsightSolution.zip",
+        "Url": "./4/1e647fb1-6984-49fc-a6f3-2cff37aa585e",
+        "Type": "Application",
+        "UploadDate": "2011-04-20T09:11:22.94-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "5",
+    "Name": "Microsoft StreamInsight Product Team Samples V2.0",
+    "DevelopmentStatus": "Stable",
+    "Description": "This is the set of samples for StreamInsight versions 2.0 and older, created by the StreamInsight Product Team.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2012-06-21T18:13:06.243-07:00",
+    "Files": [
+      {
+        "Id": "0b4ba7e5-372d-4a6d-ab27-0c6a2bdc7b6d",
+        "FileName": "StreamInsightProductTeamSamples.zip",
+        "Url": "./5/0b4ba7e5-372d-4a6d-ab27-0c6a2bdc7b6d",
+        "Type": "Source Code",
+        "UploadDate": "2011-07-18T09:58:30.383-07:00"
+      }
+    ]
+  }
+]

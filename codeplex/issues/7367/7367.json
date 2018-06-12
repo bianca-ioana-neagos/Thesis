@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The HTTP service located at http://localhost/StreamInsight/Default is too busy. \n-------------------\nThe remote server returned an error: (503) Server Unavailable.\n===========\nServer 2008 Std, Roles installed: IIS, SQL Svr 2008 R2.  Need anything else ?",
+    "LastUpdatedDate": "2013-02-14T13:26:53.287-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "streaminsight",
+    "ReportedDate": "2010-10-07T21:14:43.08-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Unable to connect to service",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 7367
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Sorry for the late reply. Have a look at this blog posting, it talks about this error: http://blogs.msdn.com/b/appfabriccat/archive/2010/10/21/streaminsight-getting-started-with-using-the-event-flow-debugger-viewing-diagnostics-and-exposing-the-management-service.aspx\r\nPlease let us know if this did not resolve the issue!",
+      "PostedDate": "2010-10-25T09:35:38.863-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T13:26:53.287-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "1111131",
+    "ThreadId": "463285",
+    "Html": "Hi,\r<br />\n<br />\nWe try to convert the ThetaJoin example with API calls (SelectMany ?) :\r<br />\nfrom e1 in stream1\r<br />\nfrom e2 in stream2\r<br />\nwhere e1.SomeProperty &gt; e2.SomeProperty\r<br />\nselect new { e1, e2 } // ...whatever in fact, it does not matter\r<br />\n<br />\nJust for the example, with basic Linq, we would do :\r<br />\nstream1.SelectMany(x =&gt; stream2.Where(y =&gt; x.SomeProperty &gt; y.SomeProperty), [...projection...])\r<br />\n<br />\nWe think we are missing something about QStreamble.SelectMany, it uses Unit parameter for the streamSelector parameter, and we do not understand how to use this Unit parameter. Perhaps SelectMany is not the right method to do what we are trying...could you help us on that please ?\r<br />\n<br />\nFor the context, we try to build dynamically this query (using Linq.Expressions), that's why we need a way to write this query with SelectMany or whatever method...)\r<br />\n<br />\nThanks<br />\n",
+    "PostedDate": "2013-10-23T08:30:01.123-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

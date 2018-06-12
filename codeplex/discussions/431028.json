@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "992742",
+    "ThreadId": "431028",
+    "Html": "\r\n<p>Hi,&nbsp;</p>\r\n<p>i am trying to build a wcf service that will get the x/y of a user&nbsp;</p>\r\n<p>the service will also have some reference tables that it will need to work with&nbsp;</p>\r\n<p>one of them will contain all business around an area.&nbsp;</p>\r\n<p>i have been able to pool up the reference data with a polling interval, but when i try to build a stream of geographic polygon, i get an error saying that that data type is not supported.&nbsp;</p>\r\n<p>can you by any chance, provide a demo for working with spatio temporal referance data and wcf input.</p>\r\n<p>&nbsp;</p>\r\n<p>thanks in advance&nbsp;</p>\r\n",
+    "PostedDate": "2013-01-27T10:58:27.06-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

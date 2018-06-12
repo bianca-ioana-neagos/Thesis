@@ -1,0 +1,2 @@
+D:\workspace\licenta\codeplex\sourceCode\Microsoft\Product Team Samples V2.0\Applications\TrafficJoinQuery\TrafficJoinQuery\obj\Debug\TrafficJoinQuery.csproj.CoreCompileInputs.cache
+D:\workspace\licenta\codeplex\sourceCode\Microsoft\Product Team Samples V2.0\Applications\TrafficJoinQuery\TrafficJoinQuery\obj\Debug\TrafficJoinQuery.csprojResolveAssemblyReference.cache

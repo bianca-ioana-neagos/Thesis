@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamInsight WCF Demo", "StreamInsight WCF Demo\StreamInsight WCF Demo.csproj", "{AD52A8BD-40EC-48D4-87B7-790E2D625F0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF Sources and Sinks", "WCF Sources and Sinks\WCF Sources and Sinks.csproj", "{B45602EA-A59F-4B2C-BA5E-82DF8018A24B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event Generator", "Event Generator\Event Generator.csproj", "{84DC0D12-7A01-4B1E-B8B0-6A6456AD9EBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event Types", "Event Types\Event Types.csproj", "{B7D09661-1255-46FB-BC48-2077E3C09C25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EA287829-9385-4B11-A26F-BEFCF0E44E5F}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dashboard", "Dashboard\Dashboard.csproj", "{A97F8EAF-B0EA-4A12-B50B-DB549D2D9C4F}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs07
+		SccProjectUniqueName0 = Event\u0020Types\\Event\u0020Types.csproj
+		SccProjectName0 = Event\u0020Types
+		SccLocalPath0 = Event\u0020Types
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = Dashboard\\Dashboard.csproj
+		SccProjectName2 = Dashboard
+		SccLocalPath2 = Dashboard
+		SccProjectUniqueName3 = Event\u0020Generator\\Event\u0020Generator.csproj
+		SccProjectName3 = Event\u0020Generator
+		SccLocalPath3 = Event\u0020Generator
+		SccProjectUniqueName4 = StreamInsight\u0020WCF\u0020Demo\\StreamInsight\u0020WCF\u0020Demo.csproj
+		SccProjectName4 = StreamInsight\u0020WCF\u0020Demo
+		SccLocalPath4 = StreamInsight\u0020WCF\u0020Demo
+		SccProjectUniqueName5 = WCF\u0020Sources\u0020and\u0020Sinks\\WCF\u0020Sources\u0020and\u0020Sinks.csproj
+		SccProjectName5 = WCF\u0020Sources\u0020and\u0020Sinks
+		SccLocalPath5 = WCF\u0020Sources\u0020and\u0020Sinks
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+		Description = Please look at README.txt for deployment instructions
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD52A8BD-40EC-48D4-87B7-790E2D625F0F}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{AD52A8BD-40EC-48D4-87B7-790E2D625F0F}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{AD52A8BD-40EC-48D4-87B7-790E2D625F0F}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{AD52A8BD-40EC-48D4-87B7-790E2D625F0F}.Debug|x86.ActiveCfg = Debug|x86
+		{AD52A8BD-40EC-48D4-87B7-790E2D625F0F}.Debug|x86.Build.0 = Debug|x86
+		{AD52A8BD-40EC-48D4-87B7-790E2D625F0F}.Release|Any CPU.ActiveCfg = Release|x86
+		{AD52A8BD-40EC-48D4-87B7-790E2D625F0F}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{AD52A8BD-40EC-48D4-87B7-790E2D625F0F}.Release|Mixed Platforms.Build.0 = Release|x86
+		{AD52A8BD-40EC-48D4-87B7-790E2D625F0F}.Release|x86.ActiveCfg = Release|x86
+		{AD52A8BD-40EC-48D4-87B7-790E2D625F0F}.Release|x86.Build.0 = Release|x86
+		{B45602EA-A59F-4B2C-BA5E-82DF8018A24B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B45602EA-A59F-4B2C-BA5E-82DF8018A24B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B45602EA-A59F-4B2C-BA5E-82DF8018A24B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B45602EA-A59F-4B2C-BA5E-82DF8018A24B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B45602EA-A59F-4B2C-BA5E-82DF8018A24B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B45602EA-A59F-4B2C-BA5E-82DF8018A24B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B45602EA-A59F-4B2C-BA5E-82DF8018A24B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B45602EA-A59F-4B2C-BA5E-82DF8018A24B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B45602EA-A59F-4B2C-BA5E-82DF8018A24B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B45602EA-A59F-4B2C-BA5E-82DF8018A24B}.Release|x86.ActiveCfg = Release|Any CPU
+		{84DC0D12-7A01-4B1E-B8B0-6A6456AD9EBA}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{84DC0D12-7A01-4B1E-B8B0-6A6456AD9EBA}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{84DC0D12-7A01-4B1E-B8B0-6A6456AD9EBA}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{84DC0D12-7A01-4B1E-B8B0-6A6456AD9EBA}.Debug|x86.ActiveCfg = Debug|x86
+		{84DC0D12-7A01-4B1E-B8B0-6A6456AD9EBA}.Debug|x86.Build.0 = Debug|x86
+		{84DC0D12-7A01-4B1E-B8B0-6A6456AD9EBA}.Release|Any CPU.ActiveCfg = Release|x86
+		{84DC0D12-7A01-4B1E-B8B0-6A6456AD9EBA}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{84DC0D12-7A01-4B1E-B8B0-6A6456AD9EBA}.Release|Mixed Platforms.Build.0 = Release|x86
+		{84DC0D12-7A01-4B1E-B8B0-6A6456AD9EBA}.Release|x86.ActiveCfg = Release|x86
+		{84DC0D12-7A01-4B1E-B8B0-6A6456AD9EBA}.Release|x86.Build.0 = Release|x86
+		{B7D09661-1255-46FB-BC48-2077E3C09C25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7D09661-1255-46FB-BC48-2077E3C09C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7D09661-1255-46FB-BC48-2077E3C09C25}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B7D09661-1255-46FB-BC48-2077E3C09C25}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B7D09661-1255-46FB-BC48-2077E3C09C25}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B7D09661-1255-46FB-BC48-2077E3C09C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D09661-1255-46FB-BC48-2077E3C09C25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7D09661-1255-46FB-BC48-2077E3C09C25}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B7D09661-1255-46FB-BC48-2077E3C09C25}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B7D09661-1255-46FB-BC48-2077E3C09C25}.Release|x86.ActiveCfg = Release|Any CPU
+		{A97F8EAF-B0EA-4A12-B50B-DB549D2D9C4F}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{A97F8EAF-B0EA-4A12-B50B-DB549D2D9C4F}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{A97F8EAF-B0EA-4A12-B50B-DB549D2D9C4F}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{A97F8EAF-B0EA-4A12-B50B-DB549D2D9C4F}.Debug|x86.ActiveCfg = Debug|x86
+		{A97F8EAF-B0EA-4A12-B50B-DB549D2D9C4F}.Debug|x86.Build.0 = Debug|x86
+		{A97F8EAF-B0EA-4A12-B50B-DB549D2D9C4F}.Release|Any CPU.ActiveCfg = Release|x86
+		{A97F8EAF-B0EA-4A12-B50B-DB549D2D9C4F}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{A97F8EAF-B0EA-4A12-B50B-DB549D2D9C4F}.Release|Mixed Platforms.Build.0 = Release|x86
+		{A97F8EAF-B0EA-4A12-B50B-DB549D2D9C4F}.Release|x86.ActiveCfg = Release|x86
+		{A97F8EAF-B0EA-4A12-B50B-DB549D2D9C4F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+D:\workspace\licenta\Crimes\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\workspace\licenta\Crimes\Model\bin\Debug\Model.exe.config
+D:\workspace\licenta\Crimes\Model\bin\Debug\Model.exe
+D:\workspace\licenta\Crimes\Model\bin\Debug\Model.pdb
+D:\workspace\licenta\Crimes\Model\obj\Debug\Model.exe
+D:\workspace\licenta\Crimes\Model\obj\Debug\Model.pdb
+D:\workspace\licenta\Crimes\Model\obj\Debug\Model.csprojAssemblyReference.cache
