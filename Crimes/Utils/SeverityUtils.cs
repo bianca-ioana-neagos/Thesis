@@ -38,7 +38,7 @@ namespace Utils
             using (severityAverageFull.Bind(outputStream).Run("process"))
             {
                 utilPerf.MonitorPerformance(server, "performance/performanceFull.txt");
-                System.Threading.Thread.Sleep(1000);
+                System.Threading.Thread.Sleep(200);
             }
         }
 
@@ -70,7 +70,7 @@ namespace Utils
                 using (severityAveragePart.Bind(outputStream2).Run("process"))
                 {
                     utilPerf.MonitorPerformance(server, "performance2/performancePart" + new Random().Next(100) + ".txt");
-                    System.Threading.Thread.Sleep(1000);
+                    System.Threading.Thread.Sleep(200);
                 }
                 noOfTries--;
             }

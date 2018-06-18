@@ -17,7 +17,7 @@ namespace Utils
 
         public void Cleanup(string fileName)
         {
-            var cleanUpCmd = "/C pushd D:\\workspace\\licenta\\Crimes\\Crimes\\bin\\Debug\\" + fileName + " && rm *";
+            var cleanUpCmd = "/C pushd C:\\Users\\BIANCA\\Desktop\\thesis\\Crimes\\Crimes\\bin\\Debug\\" + fileName + " && rm *";
             System.Diagnostics.Process.Start("CMD.exe", cleanUpCmd);
         }
 

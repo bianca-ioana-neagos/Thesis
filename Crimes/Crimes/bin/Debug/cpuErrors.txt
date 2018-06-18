@@ -1,1 +1,1 @@
- OperatorTotalCpuUsage  - 2
+ OperatorTotalCpuUsage  - 0

@@ -63,12 +63,12 @@ namespace Crimes
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start(@"D:\workspace\licenta\Crimes\Crimes\bin\Debug\results\result.txt");
+            System.Diagnostics.Process.Start(@"C:\Users\BIANCA\Desktop\thesis\Crimes\Crimes\bin\Debug\results\result.txt");
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start(@"D:\workspace\licenta\Crimes\Crimes\bin\Debug\results\severityErrors.txt");
+            System.Diagnostics.Process.Start(@"C:\Users\BIANCA\Desktop\thesis\Crimes\Crimes\bin\Debug\results\severityErrors.txt");
         }
 
 
@@ -82,12 +82,7 @@ namespace Crimes
              
                 var crimeApp = server.CreateApplication("serverApp");
                 progressBar1.Value += 10;
-                foreach (var crimeAppQuery in crimeApp.Queries)
-                {
-                    var keyValuePair = crimeAppQuery;
-                    Console.WriteLine(keyValuePair.Key + "  -  "+ keyValuePair.Value);
-                }
-
+              
                 FileUtils util = new FileUtils();
                 PerformanceUtils utilPerf = new PerformanceUtils();
                 QueryUtils utilQuery = new QueryUtils(util, crimeApp);
@@ -117,18 +112,12 @@ namespace Crimes
 
                 while (avg >= 0 && avg < 0.5)
                 {
-                    if (howMany >= SeqLengthVal)
-                    {
-                        Console.WriteLine("connot delete more tuples than there are in the sequence");
-                        break;
-                    }
-                    
                     utilApp.PartDataRun(crimeApp, util, utilPerf, utilQuery, server, noOfTries, howMany, SeqLengthVal);
                     
-                    DirectoryInfo d = new DirectoryInfo(@"D:\workspace\licenta\Crimes\Crimes\bin\Debug\results2");
+                    DirectoryInfo d = new DirectoryInfo(@"C:\Users\BIANCA\Desktop\thesis\Crimes\Crimes\bin\Debug\results2");
                     FileInfo[] files = d.GetFiles("*.txt");
 
-                    DirectoryInfo dP = new DirectoryInfo(@"D:\workspace\licenta\Crimes\Crimes\bin\Debug\performance2");
+                    DirectoryInfo dP = new DirectoryInfo(@"C:\Users\BIANCA\Desktop\thesis\Crimes\Crimes\bin\Debug\performance2");
                     FileInfo[] filesP = dP.GetFiles("*.txt");
 
                     var errors = new List<Dictionary<string, double>>();
@@ -142,7 +131,7 @@ namespace Crimes
 
                     avg = utilDiff.ComputeErrorAverage(errors, "results/severityErrors.txt");
                     avgErrors.Add(howMany, avg);
-                    Console.WriteLine(avg + "  " + howMany);
+                    //Console.WriteLine(avg + "  " + howMany);
                     howMany += 1;
                     progressBar1.Maximum+=10;
 
@@ -182,7 +171,8 @@ namespace Crimes
                     }
                     progressBar1.Value += 10;
                 }
-               // progressBar1.Value += 20;
+                // progressBar1.Value += 20;
+                Console.WriteLine(avg + "  " + howMany);
 
                 foreach (var a in avgErrors)
                 {
@@ -194,7 +184,7 @@ namespace Crimes
 
                 linkLabel2.Visible = true;
 
-                System.Threading.Thread.Sleep(1000);
+                //System.Threading.Thread.Sleep(1000);
 
                 //progressBar1.Value += 20;
 
@@ -219,9 +209,9 @@ namespace Crimes
             chart.ChartAreas[0].AxisY.Title = "The value of the error";
 
             chart.Series[1].Color = Color.Blue;
-            chart.Series[1].BorderWidth = 2;
+            //chart.Series[1].BorderWidth = 2;
             chart.Series[2].Color = Color.Red;
-            chart.Series[2].BorderWidth = 2;
+           // chart.Series[2].BorderWidth = 2;
             progressBar1.Value += 10;
             chart.Visible = true;
         }
